@@ -31,7 +31,7 @@ class DataCollection extends React.Component{
     }
 
     componentDidMount() {
-        const url = "http://localhost:5000/api/datateranalises/";
+        const url = "http://127.0.0.1:5000/api/datateranalises/";
 
         axios.get(url).then(res => {
             this.setState({

@@ -66,7 +66,7 @@ function Login(props) {
   const [passval, setPassval] = useState("")
 
   useEffect(() => {
-    const url = "http://localhost:5000/api/users/";
+    const url = "http://127.0.0.1:5000/api/users/";
 
     axios.get(url).then(res => {
       const datas = res.data

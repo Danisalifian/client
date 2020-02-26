@@ -40,7 +40,7 @@ class TopicPos extends React.Component{
   }
 
   fetchData = () => {
-    const url = "http://localhost:5000/api/datateranalises/";
+    const url = "http://127.0.0.1:5000/api/datateranalises/";
 
     axios.get(url).then(res => {
       const datas = res.data

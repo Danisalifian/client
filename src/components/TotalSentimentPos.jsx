@@ -60,7 +60,7 @@ class TotalSentimentPos extends React.Component{
   }
 
   componentDidMount() {
-    const url = "http://localhost:5000/api/datateranalises/"
+    const url = "http://127.0.0.1:5000/api/datateranalises/"
 
     var d = new Date()
     var bulanNow = 10 //d.getMonth()
